@@ -11,21 +11,20 @@ export default function Login() {
 
   return (
     <div className="flex h-screen">
-      {/* Lewa strona */}
       <div className="w-1/2 bg-oceanBlue flex justify-center items-center">
-        <h1 className="text-white text-7xl font-bold animate-pulse">
-          NEXICRM
-        </h1>
+        <h1 className="text-white text-7xl font-bold animate-pulse">NEXICRM</h1>
       </div>
 
-      {/* Prawa strona */}
       <div className="w-1/2 bg-steelBlue flex flex-col justify-center items-center p-8">
         <h2 className="text-2xl text-white font-semibold mb-4">
           {isRegistering ? "Rejestracja" : "Logowanie"}
         </h2>
         <form className="w-full max-w-sm">
           <div className="mb-6">
-            <label className="block text-white-700 text-sm font-bold mb-2" htmlFor="email">
+            <label
+              className="block text-white-700 text-sm font-bold mb-2"
+              htmlFor="email"
+            >
               E-mail
             </label>
             <input
@@ -37,7 +36,10 @@ export default function Login() {
             />
           </div>
           <div className="mb-6">
-            <label className="block text-white-700 text-sm font-bold mb-2" htmlFor="password">
+            <label
+              className="block text-white-700 text-sm font-bold mb-2"
+              htmlFor="password"
+            >
               Hasło
             </label>
             <input
@@ -52,6 +54,7 @@ export default function Login() {
             <button
               className="bg-gold hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               type="submit"
+              onClick={handleToggle}
             >
               {isRegistering ? "Zarejestruj się" : "Zaloguj się"}
             </button>
