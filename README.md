@@ -13,8 +13,7 @@ The frontend of the CRM (Customer Relationship Management) system is built using
 - **Security**: Advanced encryption, multi-factor authentication (MFA).
 
 ## Technologies
-- **React.js**: Used to build dynamic user interfaces.
+- **Next.js**: Used to build dynamic user interfaces.
 - **Redux**: For managing application state.
-- **React Router**: For managing navigation within the application.
 - **Apollo Client**: For communication with the backend (API).
 - **Chart.js / D3.js**: For data visualization.
