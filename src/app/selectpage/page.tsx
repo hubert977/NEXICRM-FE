@@ -10,12 +10,11 @@ export default function SelectPage() {
   useEffect(() => {
     setIsClient(true);
   }, []);
-
   const handleNavigation = (section: string) => {
     if (section === "hrm") {
-      router.push("/hrm-dashboard");
+      router.push("/dashboard-hrm");
     } else if (section === "crm") {
-      router.push("/crm-dashboard");
+      router.push("/dashboard-crm");
     }
   };
 
