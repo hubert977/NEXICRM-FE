@@ -1,7 +1,7 @@
 # NEXICRM-FE
 
 ## Description
-The frontend of the CRM (Customer Relationship Management) system is built using React.js. This application enables the management of customer relationships, automation of sales processes, and supports the HR department. It provides an interactive and responsive user interface tailored for various devices.
+The frontend of the HRM-CRM (Human Resource Management and Customer Relationship Management) system is built using React.js. This application enables the management of both customer relationships and employee information, automates sales and HR processes, and supports the HR department. It provides an interactive and responsive user interface tailored for various devices.
 
 ## Features
 - **Customer Relationship Management**: Customized customer profiles, contact history, customer segmentation.
