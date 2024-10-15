@@ -1,4 +1,4 @@
-# NEXICRM-FE
+# NEXIFUSION-FE
 
 ## Description
 The frontend of the HRM-CRM (Human Resource Management and Customer Relationship Management) system is built using React.js. This application enables the management of both customer relationships and employee information, automates sales and HR processes, and supports the HR department. It provides an interactive and responsive user interface tailored for various devices.
