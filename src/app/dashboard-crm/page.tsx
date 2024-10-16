@@ -8,8 +8,8 @@ export default function Dashboard() {
     <div className="flex h-screen bg-gradient-to-b bg-oceanBlue to-blue-800">
       <main className="flex-1 p-8 overflow-y-auto">
         <div className="grid grid-rows-4 grid-cols-2 gap-4 h-full">
-          {dashboardData.map(({ name }) => (
-            <Section name={name} />
+          {dashboardData.map(({ name, id }) => (
+            <Section key={id} name={name} />
           ))}
         </div>
       </main>
